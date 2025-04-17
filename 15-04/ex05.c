@@ -2,18 +2,24 @@
 #include <locale.h>
 #include "igualdade.h"
 
+int returnNum();
+
 void main(){
 	setlocale(LC_ALL, "Portuguese");
 	
-	int x, y;
-	printf("Digite um número: "); scanf("%d", &x);
-	printf("Digite um número: "); scanf("%d", &y);
+	int a, b, c;
+	a = returnNum();
+	b = returnNum();
+	c = returnNum();
 	
-	int r = igual(x, y);
-	printf("Iguais: "); printf((r) ? "sim" : "não");
+	int bigs = maior(a, b);
+	bigs = maior(bigs, c);
 	
-	if(!r){
-		printf("\nMaior: %d", maior(x, y));
-		printf("\nMenor: %d", menor(x, y));
-	}
+	printf("Maior: %d", bigs);
+}
+
+int returnNum(){
+	printf("Digite um nÃºmero: ");
+	int x; scanf("%d", &x);
+	return x;
 }

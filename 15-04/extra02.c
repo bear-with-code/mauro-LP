@@ -21,7 +21,7 @@ void main(){
 }
 
 int returnNum(){
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	int x; scanf("%d", &x);
 	return x;
 }
