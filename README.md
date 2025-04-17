@@ -24,3 +24,7 @@
 [Exercício 5](https://github.com/bear-with-code/mauro-LP/blob/main/01-04/ex05.c) | [Exercício 6](https://github.com/bear-with-code/mauro-LP/blob/main/01-04/ex06.c) | [Exercício 7](https://github.com/bear-with-code/mauro-LP/blob/main/01-04/ex07.c) | [Exercício 8](https://github.com/bear-with-code/mauro-LP/blob/main/01-04/ex08.c)
 
 ### -> Aula 9 (09/04)
+[Exercício 1](https://github.com/bear-with-code/mauro-LP/blob/main/09-04/ex01.c) | [Exercício 2](https://github.com/bear-with-code/mauro-LP/blob/main/09-04/ex02.c) | [Exercício 3](https://github.com/bear-with-code/mauro-LP/blob/main/09-04/ex03.c)
+
+### -> Aula 10 (15/04)
+[Exercício 1](https://github.com/bear-with-code/mauro-LP/blob/main/15-04/ex01.c) | [Exercício 2](https://github.com/bear-with-code/mauro-LP/blob/main/15-04/ex02.c) | [Exercício 3](https://github.com/bear-with-code/mauro-LP/blob/main/15-04/ex03.c) | [Exercício 4](https://github.com/bear-with-code/mauro-LP/blob/main/15-04/ex04.c) | [Exercício 5](https://github.com/bear-with-code/mauro-LP/blob/main/15-04/ex05.c)
