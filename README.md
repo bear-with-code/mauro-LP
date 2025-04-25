@@ -1,4 +1,4 @@
-# Mauro - LP
+# Exercícios de Linguagem de Progamação (C)
 
 ### -> Aula 2 (18 e 19/02)
 [Exercício 1](https://github.com/bear-with-code/mauro-LP/blob/main/18-02/ex1.c) | [Exercício 2](https://github.com/bear-with-code/mauro-LP/blob/main/18-02/ex2.c) | [Exercício 3](https://github.com/bear-with-code/mauro-LP/blob/main/18-02/ex3.c) | [Exercício 4](https://github.com/bear-with-code/mauro-LP/blob/main/18-02/ex4.c)\
