@@ -23,7 +23,7 @@ int mult_n(int num, int n[], int tam_n){
 		for(int j = 0; j < tam_n; j++){
 			if(i % n[j] == 0){
 				printf("%d ", i); 
-				s += i;
+				s += i; break;
 			}
 		}
 	}
