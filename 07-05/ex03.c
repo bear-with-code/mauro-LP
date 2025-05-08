@@ -20,9 +20,8 @@ int main(){
 		printf("Tamanhos differentes!");
 	}
 	else{
-		anagrama(p1); anagrama(p2); 
-		printf("%s\n", p1); 
-		printf("%s\n", p2); 
+		anagrama(p1); anagrama(p2);
+		printf((!strcmp(p1, p2)) ? "São anagramas!" : "Não são anagramas.");
 	}
 	
 	return 0;
@@ -30,15 +29,18 @@ int main(){
 
 void anagrama(char n[]){
 	int T = strlen(n); char aux;
-	
-	for(int i = 0; i < T; i++){
-		for(int j = 0; j < T-1; j++){
-			
-			if(n[j] > n[j+1]){
+	char old[T + 1]; 
+
+	for(int i = 0; i < T - 1; i++){
+		strcpy(old, n);
+		for(int j = 0; j < T - 1 - i; j++){
+			if(n[j] > n[j + 1]){
 				aux = n[j];
-				n[j] = n[j+1];
-				n[j+1] = aux;
+				n[j] = n[j + 1];
+				n[j + 1] = aux;
 			}
 		}
+		
+		if(!strcmp(old, n)){break;}
 	}
 }
